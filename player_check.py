@@ -1,5 +1,5 @@
 # Top 15 Players for the Men's Ballon d'Or
-f = open("names.txt","r")
+f = open("football.txt","r")
 names = f.readlines()
 for i in range (len(names)):
   names[i] = names [i].strip("\n")
